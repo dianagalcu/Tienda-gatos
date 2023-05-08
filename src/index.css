@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.seccionClientes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:20px;
+    background-color: mediumpurple;
+}
+
+.seccionClientes img{
+    width: 50%;
+}
+
+.seccionClientes p{
+    width: 50%;
+    margin: 80px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.seccionProductos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:20px;
+    background-color: indianred ;
+}
+
+.seccionProductos img{
+    width: 50%;
+}
+
+.seccionProductos p{
+    width: 50%;
+    margin: 80px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.seccionProveedores{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:20px;
+    background-color: sandybrown ;
+}
+
+.seccionProveedores img{
+    width: 50%;
+}
+
+.seccionProveedores p{
+    width: 50%;
+    margin: 80px;
+    padding: 20px;
+    justify-content: center;
+}
